@@ -130,6 +130,24 @@ margin: auto;
 
 }
 
+.maps img{
+    grid-area: maps;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.last{
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-template-areas: maps
+                         footer;
+    margin: auto;
+}
+
+
+
 
 
 @media screen and (max-width:760px){
